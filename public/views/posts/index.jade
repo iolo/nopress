@@ -1,0 +1,6 @@
+h1.page-header posts
+
+ul
+    li(ng-repeat="post in posts")
+        a(ng-href="#/posts/{{post.id}}") {{post.title}}
+        small.text-muted &nbsp;{{post.published|date:'medium'}}

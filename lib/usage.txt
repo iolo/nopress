@@ -1,0 +1,13 @@
+usage: nopress [options...] [command...]
+
+options:
+    --data      : path to data directory
+    --meta      : path to meta directory
+    --temp      : path to temp directory
+    --quite
+    --verbose
+
+commands:
+    generate    : generate meta
+    deploy      : deploy data, generated meta and webapp
+    server      : start web server

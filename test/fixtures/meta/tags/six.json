@@ -1,0 +1,1 @@
+[{"id":"world","file":"test/fixtures/data/pages/world.md","title":"WORLD","published":"2014-03-04T01:02:03+09:00","tags":["four","five","six"],"summary":"this is summary of world page"},{"id":"qux","file":"test/fixtures/data/posts/qux.md","title":"QUX","published":"2014-03-04T01:02:03+09:00","tags":["four","five","six"],"summary":"this is summary of qux post"}]

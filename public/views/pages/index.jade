@@ -1,0 +1,6 @@
+h1.page-header pages
+
+ul
+    li(ng-repeat="page in pages")
+        a(ng-href="#/pages/{{page.id}}") {{page.title}}
+        small &nbsp;{{page.published|date:'medium'}}

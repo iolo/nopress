@@ -1,0 +1,5 @@
+h1.page-header archives::{{year}}-{{month}}
+
+ul
+    li(ng-repeat="post in posts")
+        a(ng-href="#/posts/{{post.id}}") {{post.id}}

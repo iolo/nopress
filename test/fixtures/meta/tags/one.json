@@ -1,0 +1,1 @@
+[{"id":"about","file":"test/fixtures/data/pages/about.md","title":"ABOUT","published":"2013-11-01T01:02:03+09:00","tags":["one","two","three"],"summary":"this is summary of about page"},{"id":"foo","file":"test/fixtures/data/posts/foo.md","title":"FOO","published":"2013-11-01T01:02:03+09:00","tags":["one","two","three"],"summary":"this is summary of foo post"}]

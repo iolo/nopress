@@ -1,0 +1,14 @@
+.jumbotron
+    h1 {{site.title}}
+    p {{site.description}}
+    p: a.btn.btn-primary.btn-lg(href="#") Learn more &raquo;
+
+.row
+    .col-md-4.col-md-3.col-sm-6.col-xs-12(ng-repeat="post in posts|limitTo:12|orderBy:[published]:reverse")
+        .thumbnail
+            img(src="http://pictor.iolo.kr/pictor/holder/320x320.png")
+            .caption
+                h3: a(ng-href="#/posts/{{post.id}}") {{post.title}}
+                p {{post.summary}}
+                small.text-muted &nbsp;({{post.published}})
+

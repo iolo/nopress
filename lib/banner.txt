@@ -1,0 +1,5 @@
+N o P R E S S
+
+nopress is not a static site generator
+
+http://nopress.iolo.kr

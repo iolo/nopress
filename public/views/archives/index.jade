@@ -1,0 +1,6 @@
+h1.page-header archives
+
+ul
+    li(ng-repeat="archive in archives")
+        a(ng-href="#/archives/{{archive.year}}/{{archive.month}}") {{archive.year}}-{{archive.month}}
+        small.text-muted ({{archive.count}})

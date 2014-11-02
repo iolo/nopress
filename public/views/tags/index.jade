@@ -1,0 +1,6 @@
+h1.page-header tags
+
+ul
+    li(ng-repeat="tag in tags")
+        a(ng-href="#/tags/{{tag.tag}}") {{tag.tag}}
+        small.text-muted &nbsp;({{tag.count}})
